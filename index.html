@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button class="nav-button" onclick="showPage('home')">Home</button></li>
+                <li><button class="nav-button" onclick="showPage('portfolio')">My Portfolio</button></li>
+                <li><button class="nav-button" onclick="showPage('contact')">Contact</button></li>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const buttons = document.querySelectorAll('.nav-button');
+            
+                        buttons.forEach(button => {
+                            button.addEventListener('click', function() {
+                                buttons.forEach(btn => btn.classList.remove('active'));
+                                this.classList.add('active');
+                            });
+                        });
+                    });
+                </script>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+         
+            
+       
+        <section id="home"  class="page">
+            <video class="video" src="./image/bg_vedio.mp4" loop muted autoplay ></video>
+
+            <h1  class="h"> I'm a <span id="animate" class="animate"></span></h1>
+                
+        </section>
+ 
+    </div> 
+          
+            <section id="portfolio" class="page">
+
+                <div class="start__portfolio">
+                    <div class="portfolio__image">
+                         <img class="image" src="./image/mylogo.jpg" alt="portfoli image" height="100">
+                    </div>
+
+
+                   <div class="portfolio_inner">
+
+                    <div class="portfolio__page">
+                        I'm Muhammad Yusuf.   I was born 2006.I'm from Uzbekiston.I am a first-year student at TMC Institute in Singapore.
+                         I work as a front-end developer and Photoshop mobilographer,
+                          and I have a strong interest in programming. I know 
+                          <i color="yellowgreen">HTML5 CSS JavasCript </i>. I've one year experience Photoshop and 
+                          Mobilograph  but I have not front-end experience. Currently, I'm making a lot of 
+                          websites to expand my skills. My aim never give up.
+                    </div>  
+                    
+
+                    <div class="start_personal_skills">
+                        <div class="skill-item ">
+                            <h5>HTML 5 & CSS</h5>
+                            <div class="progress">
+                              <div class="progress-in" style="width: 80%;"></div>
+                              <div class="skill-percent">80%</div>
+                            </div>
+                          </div>
+                    
+                          <div class="skill-item ">
+                            <h5>CapCut & VN Video editor</h5>
+                            <div class="progress">
+                              <div class="progress-in" style="width: 75%;"></div>
+                              <div class="skill-percent">75%</div>
+                            </div>
+                          </div>
+                    
+                          <div class="skill-item ">
+                            <h5>Photoshop </h5>
+                            <div class="progress">
+                              <div class="progress-in" style="width: 65%;"></div>
+                              <div class="skill-percent">65%</div>
+                            </div>
+                          </div>
+                    
+                          <div class="skill-item ">
+                            <h5>JavasCript </h5>
+                            <div class="progress">
+                              <div class="progress-in" style="width: 50%;"></div>
+                              <div class="skill-percent">50%</div>
+                            </div>
+                          </div>
+                    </div>
+                   </div> 
+              </div>
+            </section>
+            
+            
+     
+           <!-- contact section start --> 
+            <section id="contact" class="page">
+      <div class="row">
+        <div class="section-title padd-15">
+        </div>
+      </div>
+      <h3 class="contact-title padd-15">Have you Any Questions?</h3>
+      <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+      <div class="row">
+        <!-- contat info item start -->
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-phone" color="greenyellow"></i></div>
+          <h4>Call Us On</h4>
+          <p>+998 88 578 02 01</p>
+        </div>
+        <!-- contat info item end -->
+        
+        <!-- contat info item start -->
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-map-marker-alt" color="greenyellow"></i></div>
+          <h4>Office</h4>
+          <p>Uzbekistan</p>
+        </div>
+        <!-- contat info item end -->
+        
+        <!-- contat info item start -->
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-envelope"color="greenyellow"></i></div>
+          <h4>Email</h4>
+          <p>muhammadyusufabdugofurov167@gmail.com</p>
+        </div>
+        <!-- contat info item end -->
+        
+        <!-- contat info item start -->
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-globe-europe"color="greenyellow"></i></div>
+          <h4>Website</h4>
+          <p>www.Natija LLC.com</p>
+        </div>
+        <!-- contat info item end -->
+      </div>
+      <h3 class="contact-title padd-15"> SEND ME AN EMAIL</h3>
+      <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MASSAGE</h4>
+      <!-- contact form -->
+      <div class="rows">
+        <div class="contact-form padd-10 ">
+          <div class="row">
+            <div class="form-item  padd-10">
+              <div class="form-group">
+                <input class="form-group-name" type="text" class="form-control" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-item padd-10">
+              <div class="form-group">
+                <input class="form-group-subj" type="text" class="form-control" placeholder="Subject">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item  padd-10">
+                <div class="form-group">
+                  <input  class="form-group"  type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="form-item  padd-10">
+              <div class="form-group">
+                <textarea class="form-group" name="" class="form-control" id="" placeholder="Massage" ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-item  ">
+             <button class="btn__massage" type="submit" class="btn">Send Massage</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- contact section end -->        
+            </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+

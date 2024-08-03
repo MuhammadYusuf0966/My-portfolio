@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.container{
+    width: 100%;
+}
+
+.video{
+ width: 91%;
+ height: auto;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* or 'contain' depending on your need */
+}
+
+ .h{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    color: aliceblue;
+    font-size: 4.5em;
+  }
+  
+ .h span{
+    color: chartreuse;
+  
+  }
+
+.image__logo{
+    width: 100%;
+    height: -100%;
+    object-fit: cover;
+
+}
+
+header {
+
+    padding: 1rem;
+    padding: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+text-align: center;}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    transition: all;
+}
+
+nav ul li button {
+
+    position: relative;
+    z-index: 10;
+    border: 0;
+    color: greenyellow; 
+    padding: 20px;
+    background: none;
+}
+
+nav ul li button.active:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: greenyellow;  
+}
+
+.page {
+    display: none;
+    padding: 2rem;
+}
+
+.one{
+    padding: none;
+}
+
+/*start my portfolio page*/
+
+.start__portfolio{
+width: 100%;
+height: 100%;
+display: flex;
+}
+
+.portfolio__image{
+    width: 60%;
+    height: 80%;
+}
+
+.image{
+    height: 670px;
+}
+
+.portfolio__page{
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+    margin-right: 10%;
+}
+
+
+
+.portfolio_inner{
+    margin-left: 80px;
+
+}
+
+.start_personal_skills{
+    margin-top: 85px;
+width: 95%;
+}
+
+.start_personal_skills .skills {
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+  }
+  
+  .about .about-content .skills .skill-item{
+    flex:0 0 100%;
+    max-width: 100%;
+  
+  }
+  
+ .skill-item h5 {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: whitesmoke;
+    text-transform: capitalize;
+  }
+  
+ .skill-item .progress{
+    background-color: whitesmoke;
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .skill-item{
+    margin-bottom: 30px;
+  }
+  
+  .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color:yellowgreen;
+  }
+  
+  .skill-item .skill-percent{
+    position: absolute;
+    right: 0;
+    color: whitesmoke ;
+    top: -330px;
+    font-weight: 400;
+    line-height: 40;
+  }
+  
+
+/* contact */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root {
+    --bg-black-900: #fff;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+}
+
+.padd-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    
+}
+
+.padd-10{
+    width: 100%;
+}
+.contact-title{
+    color: greenyellow;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-sub-title{
+  color: var(--text-black-900);
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.contact-info-item .h4 .p{
+text-align: center;
+}
+  
+.row{
+   display: flex;
+   justify-content: space-between;
+}
+  
+
+
+.form-group{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    color: yellowgreen;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.form-group-name{
+    margin-bottom: 20px;
+    width: 95%;
+    height: 40px;
+    color: yellowgreen;
+  border-radius: 12px ;
+  padding: 5px;
+}
+
+.form-group-subj{
+    margin-bottom: 20px;
+    width: 97%;
+    margin-left: 23px;
+    height: 40px;
+    color: yellowgreen;
+  border-radius: 12px;
+  padding: 5px;
+}
+  
+.btn__massage{
+    color: yellowgreen;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 16px;
+    padding-right: 15px;
+
+}
+
+
+
