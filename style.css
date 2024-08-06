@@ -223,14 +223,18 @@ width: 95%;
   margin-bottom: 60px;
 }
 
+
+
+
 .contact-info-item h4  {
 text-align: center;
-color: white;
+color: var(--text-black-900);
+
 }
 
 .contact-info-item p  {
   text-align: center;
-  color: white;
+  color: var(--text-black-900);
   }
   
 .row{
@@ -260,7 +264,7 @@ color: white;
 
 .form-group-subj{
     margin-bottom: 20px;
-    width: 97%;
+    width: 95%;
     margin-left: 23px;
     height: 40px;
     color: yellowgreen;
