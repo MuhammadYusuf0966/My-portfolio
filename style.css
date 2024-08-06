@@ -270,6 +270,7 @@ color: var(--bg-black-900);
     color: yellowgreen;
   border-radius: 12px;
   padding: 5px;
+  background-color: red;
 }
   
 .btn__massage{
@@ -282,5 +283,16 @@ color: var(--bg-black-900);
 
 }
 
+@media (max-width: 600px) {
+
+}
 
 
+@media (min-width: 600px) and (max-width: 768px) {
+ 
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
