@@ -203,7 +203,7 @@ width: 95%;
 }
 
 .icon{
-  color: red;
+  color: yellowgreen;
 }
 
 .padd-10{
@@ -225,6 +225,7 @@ width: 95%;
 
 .contact-info-item .h4 .p{
 text-align: center;
+color: white;
 }
   
 .row{
