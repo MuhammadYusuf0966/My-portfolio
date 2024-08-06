@@ -228,13 +228,13 @@ width: 95%;
 
 .contact-info-item h4  {
 text-align: center;
-color: var(--text-black-900);
+color: var(--bg-black-900);
 
 }
 
 .contact-info-item p  {
   text-align: center;
-  color: var(--text-black-900);
+  color: var(--bg-black-900);
   }
   
 .row{
