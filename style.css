@@ -223,10 +223,15 @@ width: 95%;
   margin-bottom: 60px;
 }
 
-.contact-info-item .h4 .p{
+.contact-info-item h4  {
 text-align: center;
 color: white;
 }
+
+.contact-info-item p  {
+  text-align: center;
+  color: white;
+  }
   
 .row{
    display: flex;
