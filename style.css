@@ -278,6 +278,10 @@ color: var(--bg-black-900);
 
 }
 
+.contact-info-item{
+  width: 100px;
+}
+
 @media (min-width: 1000px) and (max-width: 1200px) {
     .image{
      height: 480px; 
@@ -314,8 +318,66 @@ margin-left: 9%;
     height: auto; /* Balandlikni avtomatik moslashtirish */
 }
 
+.image{
+  height: 540px;
+}
+
+.start__portfolio{
+  display: block;
+}
+
+.portfolio_inner{
+  margin-top: 100px;
+  margin-left: -10px;
+}
 
 }
 
 
+@media (min-width: 400px) and (max-width: 600px) {
+  #home {
+    width: 100%; /* To'g'ri kenglik */
+    height: auto; /* Balandlikni avtomatik moslashtirish */
+}
+
+.image{
+  height: 440px;
+}
+
+.start__portfolio{
+  display: block;
+}
+
+.portfolio_inner{
+  margin-top: 100px;
+  margin-left: -10px;
+}
+
+.contact-info-item:nth-child(1)
+ {
+ margin-left: 120px; 
+ 
+}
+
+.contact-info-item h4:nth-child(1)
+ {
+ width: 100px; 
+ 
+}
+
+.contact-info-item:nth-child(2){
+  margin-left: 140px;
+}
+
+.contact-info-item:nth-child(3)
+ {
+    margin-top: 160px; 
+    margin-right: 200px;
+}
+
+.contact-info-item:nth-child(4){
+
+}
+
+}
 
