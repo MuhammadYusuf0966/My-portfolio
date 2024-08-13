@@ -303,8 +303,9 @@ form {
   margin-top: 90px;
 }
 
-button:hover {
+.container button:hover {
   background-color: #0056b3;
+  
 }
 
 #map {
@@ -356,7 +357,7 @@ button:hover {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 706px) and (max-width: 1000px) {
  .start__portfolio{
   display: contents ;
  }
@@ -374,7 +375,7 @@ margin-left: 9%;
 }
 
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 706px) {
   #home {
     width: 100%; 
     height: auto;
@@ -396,14 +397,14 @@ margin-left: 9%;
 }
 
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 500px) {
   #home {
     width: 100%; 
     height: auto; 
 }
 
 .image{
-  height: 440px;
+  height: 380px;
 }
 
 .start__portfolio{
