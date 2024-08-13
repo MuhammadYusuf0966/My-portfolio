@@ -16,7 +16,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* To'g'ri nisbati saqlanadi */
+  object-fit: cover; 
 }
 
 .h {
@@ -27,7 +27,7 @@ body {
   text-align: center;
   color: aliceblue;
   font-size: 4.5em;
-  z-index: 20; /* Ushbu qiymatni yuqoriroq qilib o'zgartirish */
+  z-index: 20; 
 }
 
  .h span{
@@ -69,7 +69,7 @@ nav ul li button {
     background: none;
 }
 
-nav ul li button.active:after{
+ nav ul li button.active:after{
     content: '';
     position: absolute;
     width: 100%;
@@ -77,11 +77,11 @@ nav ul li button.active:after{
     bottom: 0;
     left: 0;
     background-color: greenyellow;  
-}
+} 
 
 .page {
     display: none;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .one{
@@ -104,7 +104,8 @@ nav ul li button.active:after{
     height: 670px;
 }
 
-.portfolio__page{
+.portfolio__page p{
+  color: white;
     width: 100%;
     font-size: 25px;
     font-family: 'Roboto' sans-serif;
@@ -278,9 +279,7 @@ color: var(--bg-black-900);
 
 }
 
-.contact-info-item{
-  width: 100px;
-}
+
 
 @media (min-width: 1000px) and (max-width: 1200px) {
     .image{
@@ -314,8 +313,8 @@ margin-left: 9%;
 
 @media (min-width: 600px) and (max-width: 768px) {
   #home {
-    width: 100%; /* To'g'ri kenglik */
-    height: auto; /* Balandlikni avtomatik moslashtirish */
+    width: 100%; 
+    height: auto;
 }
 
 .image{
@@ -336,8 +335,8 @@ margin-left: 9%;
 
 @media (min-width: 400px) and (max-width: 600px) {
   #home {
-    width: 100%; /* To'g'ri kenglik */
-    height: auto; /* Balandlikni avtomatik moslashtirish */
+    width: 100%; 
+    height: auto; 
 }
 
 .image{
@@ -378,6 +377,8 @@ margin-left: 9%;
 .contact-info-item:nth-child(4){
 
 }
+
+
 
 }
 
