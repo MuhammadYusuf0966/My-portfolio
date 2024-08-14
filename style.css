@@ -79,6 +79,29 @@ nav ul li button {
     background-color: greenyellow;  
 } 
 
+/* swtich tuggle */
+
+.switch-container {
+  position: relative;
+ }
+ 
+ 
+ #switchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+ }
+ 
+ 
+ body.switch-on {
+  background-color: #000000;
+  transition: 0.5s ease;
+ 
+ }
 .page {
     display: none;
     padding: 3rem;
