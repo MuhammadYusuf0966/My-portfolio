@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="switch-container">
+    <button id="switchButton" onclick="toggleSwitch()">Switch Off</button>
+  </div>
+  <script>
+      function toggleSwitch() {
+const switchButton = document.getElementById('switchButton');
+const body = document.body;
+
+// Toggle button text
+switchButton.innerText = switchButton.innerText === 'Switch Off' ? 'Switch On' : 'Switch Off';
+
+// Toggle background color
+body.classList.toggle('switch-on');
+}
+  </script>
     <header>
         <nav>
             <ul>
@@ -17,9 +32,7 @@
                 <li><button class="nav-button" onclick="showPage('portfolio')">My Portfolio</button></li>
                 <li><button class="nav-button" onclick="showPage('contact')">Contact</button></li>
 
-                <script>
-                    
-                </script>
+                
             </ul>
         </nav>
     </header>
