@@ -561,9 +561,15 @@ width: 850px;
 margin-top: 30px;
  }
 
- .image{
-margin-left: 9%;
- }
+
+
+ .div{
+  height: 340px;
+}
+
+.card{
+  margin-left: 150px;
+}
 
 }
 
@@ -574,8 +580,12 @@ margin-left: 9%;
     height: auto;
 }
 
-.image{
-  height: 540px;
+.div{
+  height: 340px;
+}
+
+.card{
+  margin-left: 150px;
 }
 
 .start__portfolio{
@@ -596,10 +606,13 @@ margin-left: 9%;
     height: auto; 
 }
 
-.image{
+.div{
   height: 340px;
 }
 
+.card{
+  margin-left: 135px;
+}
 .start__portfolio{
   display: block;
 }
